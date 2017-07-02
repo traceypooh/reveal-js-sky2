@@ -3,7 +3,7 @@
  *
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
-@import url(../../open-sans.css);
+@import url(open-sans.css);
 .reveal a {
   line-height: 1.3em; }
 
