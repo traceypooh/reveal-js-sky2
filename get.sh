@@ -8,7 +8,6 @@
 #    curl
 ##############################################################################
 
-# curl -fsSL get.docker.com -o get.sh  &&  bash get.sh;
 
 if [ ! -d reveal.js ]; then
   git clone https://github.com/hakimel/reveal.js;
