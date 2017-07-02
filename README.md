@@ -8,7 +8,7 @@ reveal-js lightly customized boilerplate to default to ./slides.md for data and 
 ## Get and start serving locally on a mac (no root/sudo needed):
 `export REPO=traceypooh/reveal-js-sky2;  curl -fsSL https://github.com/$REPO/raw/master/get.sh | bash -ex`
 
-(you can see the file in this repo's dir listing to inspect it first -- it's tame ;-)
+(you can see `get.sh` in this repo's dir listing to inspect it first -- it's tame ;-)
 
 ## Customize
 simply edit `slides.md` in your editor of choice
