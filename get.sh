@@ -10,10 +10,14 @@
 
 
 if [ ! -d reveal.js ]; then
-  git clone https://github.com/hakimel/reveal.js;
+    git clone https://github.com/hakimel/reveal.js;
 fi
 
-git clone https://github.com/traceypooh/reveal-js-sky2;
+if [ ! -d reveal-js-sky2 ]; then
+    # try using SSH first;  else default back to HTTPS
+    git clone git@github.com:traceypooh/reveal-js-sky2.git  ||
+    git clone https://github.com/traceypooh/reveal-js-sky2;
+fi
 
 cd reveal-js-sky2;
 
