@@ -15,8 +15,8 @@ fi
 
 if [ ! -d reveal-js-sky2 ]; then
     # try using SSH first;  else default back to HTTPS
-    git clone git@github.com:traceypooh/reveal-js-sky2.git  ||
-    git clone https://github.com/traceypooh/reveal-js-sky2;
+    git clone git@github.com:$REPO.git  ||
+    git clone https://github.com/$REPO;
 fi
 
 cd reveal-js-sky2;
